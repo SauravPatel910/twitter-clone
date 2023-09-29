@@ -1,0 +1,10 @@
+.feed {
+  flex: 0.4;
+  border-right: 1px solid rgba(231, 234, 234, 0.3);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+
+.feed::-webkit-scrollbar {
+  display: none;
+}

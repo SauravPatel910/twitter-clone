@@ -1,0 +1,36 @@
+/* * {
+  margin: 0;
+} */
+body {
+  font-family: "Croissant One", cursive;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.logo {
+  margin-bottom: 20px !important;
+  margin-left: 20px !important;
+}
+
+.sidebar {
+  border-right: 1px solid rgba(231, 234, 234, 0.3);
+  flex: 0.3;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sidebar__post {
+  font-family: "Croissant One", cursive !important;
+  text-transform: none !important;
+  background-color: rgb(29, 155, 240) !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  border-radius: 30px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+}
+.sidebar__post:hover {
+  background-color: rgb(26, 140, 216) !important;
+}

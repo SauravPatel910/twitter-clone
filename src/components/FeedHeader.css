@@ -1,0 +1,41 @@
+.feed__header {
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border: 1px solid rgba(231, 234, 234, 0.3);
+  padding-top: 10px;
+  line-height: 2.5rem;
+}
+
+.feed__header > h2 {
+  padding-left: 10px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.home {
+  padding-left: 20px;
+}
+
+.headerBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+.for_you > h3,
+.following > h3 {
+  font-size: 15px;
+}
+
+.for_you:hover,
+.following:hover {
+  background-color: rgba(231, 234, 234, 0.1);
+  cursor: pointer;
+}
+
+.for_you__active,
+.following__active {
+  border-bottom-style: solid;
+}

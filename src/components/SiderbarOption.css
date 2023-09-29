@@ -1,0 +1,27 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.sidebarOption:hover {
+  background-color: rgba(231, 234, 234, 0.1);
+}
+
+.sidebarOption > .icon {
+  padding: 12px 20px;
+  height: 1.75rem;
+  width: 1.75em;
+}
+
+.sidebarOption > h2 {
+  font-weight: inherit;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.sidebarOption--active {
+  color: var(--twitter-color);
+  font-weight: 800;
+}
